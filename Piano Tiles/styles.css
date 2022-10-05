@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(-45deg, #247cc3, #7730d3, #23a6d5, #126d88);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    animation-name: gradient1;
+}
+
+@keyframes gradient1 {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.content-container {
+    height: 600px;
+    width: 1400px;
+    display: table-cell;
+    position: relative;
+}
+
+.h1-div {
+    position: relative;
+    width: 100%;
+    padding-top: 300px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-shadow: 1px 1px #000000;
+}
+
+.h1-div h1 {
+    width: 500px;
+    margin: auto;
+}
+
+.button-div {
+    position: relative;
+    height: 100px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#play-button {
+    width: 150px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background: #1e494672;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 1px 1px #000000;
+}
+
+#play-button:hover {
+    background: #09312e72;
+    cursor: pointer;
+}
