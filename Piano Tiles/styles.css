@@ -17,14 +17,14 @@ body {
     }
 }
 
-.content-container {
+#content-container {
     height: 600px;
     width: 1400px;
     display: table-cell;
     position: relative;
 }
 
-.h1-div {
+#h1-div {
     position: relative;
     width: 100%;
     padding-top: 300px;
@@ -34,12 +34,12 @@ body {
     text-shadow: 1px 1px #000000;
 }
 
-.h1-div h1 {
+#h1-div h1 {
     width: 500px;
     margin: auto;
 }
 
-.button-div {
+#button-div {
     position: relative;
     height: 100px;
     text-align: center;
