@@ -62,3 +62,38 @@ body {
     background: #09312e72;
     cursor: pointer;
 }
+
+#selection-container {
+    width: 1400px;
+    height: 600px;
+    display: table-cell;
+    position: relative;
+    padding-top: 200px;
+}
+
+#selection-button-div {
+    position: relative;
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-shadow: 1px 1px #000000;
+}
+
+#selection-button {
+    width: 300px;
+    height: 100px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background: #1e494672;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 1px 1px #000000;   
+}
+
+#selection-button:hover {
+    background: #09312e72;
+    cursor: pointer;
+}
